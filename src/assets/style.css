@@ -1,0 +1,35 @@
+  /* Color scheme */
+  /* :root {
+    --gradient-primary: linear-gradient(135deg, #27ae60 0%, #2c3e50 100%);
+    --gradient-reverse: linear-gradient(135deg, #2c3e50 0%, #27ae60 100%);
+    --text-dark: #2c3e50;
+    --text-light: #f8fff9;
+    --bg-light: #f8fff9;
+    --accent: #2ecc71;
+    --signup-color: #2ecc71;
+    --border-radius: 8px;
+  } */
+
+
+  :root {
+
+    --gradient-primary: linear-gradient(135deg, #27ae60 0%, #2c3e50 100%);
+    --gradient-reverse: linear-gradient(135deg, #2c3e50 0%, #27ae60 100%);
+    --text-dark: #2c3e50;
+    --text-light: #f8fff9;
+    --bg-light: #f8fff9;
+    --accent: #2ecc71;
+    --signup-color: #2ecc71;
+    --border-radius: 8px;
+
+    --gradient-primary-start: #27ae60;
+    --gradient-primary-end: #2c3e50;
+    --text-dark: #2c3e50;
+    --text-light: #f8fff9;
+    --accent-color: #2ecc71;
+    --accent-color-darker: #27ad60;
+    --accent-color-light: #79fab5;
+    --border-radius: 12px;
+    --light-shade-bg: #f0f5f3;
+    --primary-font: 'Poppins', sans-serif;
+  }
