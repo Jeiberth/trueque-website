@@ -1,0 +1,1 @@
+import{_ as t,c as a,a as o,t as s,o as n}from"./index-Mdy4q06R.js";const r={};function c(e,l){return n(),a("div",null,[o("h1",null,s(e.$t("welcome")),1),o("p",null,s(e.$t("message")),1)])}const f=t(r,[["render",c]]);export{f as default};
