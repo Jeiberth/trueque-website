@@ -1,7 +1,161 @@
 {
-    "Home": "Home",
-    "How It Works": "How It Works",
-    "About Us": "About Us",
-    "Privacy Policy": "Privacy Policy",
-    "Sign Up": "Sign Up"
+  "Home": "Home",
+  "How It Works": "How It Works",
+  "About Us": "About Us",
+  "Privacy Policy": "Privacy Policy",
+  "Sign Up": "Sign Up",
+  "hero": {
+    "titleHighlight": "Trueque:",
+    "titleMain": "Where Community Meets Exchange",
+    "subtitle": "Trueque reimagines the ancient art of bartering for the modern world. Your unused items find new life, and your unique skills foster lasting connections!",
+    "ctaDiscover": "How it Works",
+    "ctaExplore": "Explore Features"
+  },
+  "howItWorks": {
+    "title": "How Trueque Works",
+    "step1Title": "Sign Up & Shine",
+    "step1Desc": "Quickly create your profile. Add a touch of personality to let the community know who you are.",
+    "step2Title": "List & Showcase",
+    "step2Desc": "Easily list items you no longer need or skills you're happy to share. Good photos and descriptions help!",
+    "step3Title": "Discover & Connect",
+    "step3Desc": "Browse or search for items and services offered by others in your local community. Send a friendly message to connect.",
+    "step4Title": "Agree & Exchange",
+    "step4Desc": "Chat with members to agree on the terms of your exchange. Barter items, skills, or a mix!",
+    "step5Title": "Rate & Build Trust",
+    "step5Desc": "After the exchange, share your experience. Honest ratings build a trustworthy and vibrant community."
+  },
+  "whyTrueque": {
+    "title": "Why Trueque?",
+    "lead": "Trueque brings <strong class=\"highlight-accent\">community</strong> back to exchange. Trade items and skills—like a vintage lamp for guitar lessons or coding help for garden tips.",
+    "secondary": "It's about valuing <strong class=\"highlight-dark\">time, talents, and treasures</strong>, not just money. We foster a supportive network where every exchange strengthens bonds and enriches lives.",
+    "ctaButton": "See Our Features"
+  },
+  "features": {
+    "title": "Unlock the Value of Exchange",
+    "wasteFree": {
+      "title": "Waste-Free Network",
+      "description": "Give items a second life. Reduce waste, share more sustainably!",
+      "backTitle": "Eco-Friendly!",
+      "backDescription": "Each trade helps our planet. Join the green exchange movement and make a difference!"
+    },
+    "modernBartering": {
+      "title": "Modern Bartering",
+      "description": "Items, skills, or even a bit of cash. Flexible and fair deals for everyone.",
+      "backTitle": "Flexible Trades!",
+      "backDescription": "Negotiate with ease. Your terms, your treasures. Combine offers for the perfect swap."
+    },
+    "smartDiscovery": {
+      "title": "Smart Discovery",
+      "description": "Swipe for treasures! Find exactly what you need from local folks nearby.",
+      "backTitle": "Find Local Gems!",
+      "backDescription": "Our smart filters and swipe interface make finding your next trade fun and easy."
+    },
+    "skillExchange": {
+      "title": "Skill Exchange Hub",
+      "description": "Share talents, learn new things. Connect with others and grow together!",
+      "backTitle": "Talent Swap!",
+      "backDescription": "Teach, learn, collaborate. Unlock your potential by exchanging valuable skills."
+    }
+  },
+  "coreValues": {
+    "title": "Our Core Values",
+    "sustainability": {
+      "title": "Sustainability",
+      "description": "Promoting reuse and reducing waste for a healthier planet."
+    },
+    "community": {
+      "title": "Community",
+      "description": "Building strong local connections through shared experiences."
+    },
+    "trust": {
+      "title": "Trust & Safety",
+      "description": "Fostering a secure and respectful environment for all members."
+    },
+    "value": {
+      "title": "Value Beyond Money",
+      "description": "Recognizing the inherent worth of skills, items, and time."
+    }
+  },
+  "inspiredExchanges": {
+    "title": "Get Inspired by Exchanges",
+    "exchange1_item1": "Guitar Lessons",
+    "exchange1_item2": "Hand-Knit Scarf",
+    "exchange2_item1": "Graphic Design Work",
+    "exchange2_item2": "Fresh Garden Vegetables",
+    "exchange3_item1": "Vintage Bookshelf",
+    "exchange3_item2": "Language Tutoring (Spanish)",
+    "exchange4_item1": "Home-Baked Bread",
+    "exchange4_item2": "Bike Repair Service"
+  },
+  "testimonials": {
+    "title": "Voices of Trueque",
+    "testimonial1": {
+      "quote": "I traded my old camera for amazing pottery classes! Trueque helped me find a new hobby and a friend.",
+      "name": "David M.",
+      "detail": "Local Artist"
+    },
+    "testimonial2": {
+      "quote": "Needed help with my garden, and found someone willing to trade their green thumb for my coding skills. Win-win!",
+      "name": "Sarah K.",
+      "detail": "Software Developer"
+    },
+    "testimonial3": {
+      "quote": "It's so much more rewarding than just buying new. I love giving my items a second life and connecting with people.",
+      "name": "Hector P.",
+      "detail": "Eco-conscious Parent"
+    }
+  },
+  "impact": {
+    "title": "<span class=\"gradient-text\">Beyond Transactions,</span><br/>We Build Vibrant Connections!",
+    "lead": "Trueque isn't just about stuff; it's about the <strong class=\"highlight-accent\">people</strong> and the <strong class=\"highlight-accent\">stories</strong> behind every exchange.",
+    "listItem1": "Discover unique items with history.",
+    "listItem2": "Learn new skills from passionate locals.",
+    "listItem3": "Reduce your footprint, one trade at a time.",
+    "listItem4": "Join a lively network that values sharing."
+  },
+  "cta": {
+    "title": "Ready to <span class=\"pulsing-text\">Revitalize</span> Exchange?",
+    "subtitle": "Unlock value, discover community, and thrive on connection over cash with Trueque.",
+    "buttonJoin": "Join the Movement!",
+    "buttonTest": "Explore Trueque"
+  },
+  "footer": {
+    "copyright": "© 2023 Trueque. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact Us"
+  },
+  "howItWorksPage": {
+    "title": "How Trueque Works",
+    "matchingTitle": "Smart Matching System",
+    "matchingText": "Find perfect matches with our AI-powered suggestions:",
+    "matchingFeatures": [
+      "Swipe through curated items",
+      "Instant match notifications",
+      "Advanced preference filters",
+      "Location-based recommendations"
+    ],
+    "negotiationTitle": "Real-Time Negotiation",
+    "negotiationText": "Powerful tools to create perfect deals:",
+    "negotiationFeatures": [
+      "Multi-item combination offers",
+      "Cash balance adjustments",
+      "Instant counter-offers",
+      "Visual trade value calculator"
+    ],
+    "managementTitle": "Smart Management",
+    "managementText": "Complete control over your trades:",
+    "managementFeatures": [
+      "360° item photography",
+      "Condition grading system",
+      "Complete trade history",
+      "Automated pricing suggestions"
+    ],
+    "chatMessages": [
+      "Let's trade my coffee table for your armchair!",
+      "How about adding 2 books to balance?",
+      "Deal! Let's meet tomorrow 👋"
+    ],
+    "uploadText": "Drag & Drop to Upload Items"
   }
+}

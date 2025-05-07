@@ -1,4 +1,161 @@
 {
-    "welcome": "Bienvenido",
-    "message": "Este es un mensaje en español."
-  }
+  "Home": "Inicio",
+  "How It Works": "Cómo Funciona",
+  "About Us": "Sobre Nosotros",
+  "Privacy Policy": "Política de Privacidad",
+  "Sign Up": "Regístrate",
+  "hero": {
+    "titleHighlight": "Trueque:",
+    "titleMain": "Donde la Comunidad se Encuentra con el Intercambio",
+    "subtitle": "Trueque reinventa el antiguo arte del trueque para el mundo moderno. ¡Tus artículos sin usar encuentran nueva vida y tus habilidades únicas fomentan conexiones duraderas!",
+    "ctaDiscover": "Cómo Funciona",
+    "ctaExplore": "Explorar Funciones"
+  },
+  "howItWorks": {
+    "title": "Cómo Funciona Trueque",
+    "step1Title": "Regístrate y Brilla",
+    "step1Desc": "Crea tu perfil rápidamente. Añade un toque de personalidad para que la comunidad sepa quién eres.",
+    "step2Title": "Publica y Muestra",
+    "step2Desc": "Publica fácilmente artículos que ya no necesitas o habilidades que te gustaría compartir. ¡Buenas fotos y descripciones ayudan!",
+    "step3Title": "Descubre y Conecta",
+    "step3Desc": "Navega o busca artículos y servicios ofrecidos por otros en tu comunidad local. Envía un mensaje amigable para conectar.",
+    "step4Title": "Acuerda e Intercambia",
+    "step4Desc": "Chatea con miembros para acordar los términos de tu intercambio. ¡Trueca artículos, habilidades o una combinación!",
+    "step5Title": "Valora y Genera Confianza",
+    "step5Desc": "Después del intercambio, comparte tu experiencia. Las valoraciones honestas construyen una comunidad vibrante y confiable."
+  },
+  "whyTrueque": {
+    "title": "¿Por Qué Trueque?",
+    "lead": "Trueque devuelve la <strong class=\"highlight-accent\">comunidad</strong> al intercambio. Trueca artículos y habilidades, como una lámpara vintage por clases de guitarra o ayuda en programación por consejos de jardinería.",
+    "secondary": "Se trata de valorar el <strong class=\"highlight-dark\">tiempo, talentos y tesoros</strong>, no solo el dinero. Fomentamos una red de apoyo donde cada intercambio fortalece lazos y enriquece vidas.",
+    "ctaButton": "Ver Nuestras Funciones"
+  },
+  "features": {
+    "title": "Desbloquea el Valor del Intercambio",
+    "wasteFree": {
+      "title": "Red Sin Desperdicios",
+      "description": "Dale una segunda vida a los artículos. ¡Reduce desperdicios, comparte de forma más sostenible!",
+      "backTitle": "¡Ecológico!",
+      "backDescription": "Cada trueque ayuda a nuestro planeta. ¡Únete al movimiento de intercambio verde y marca la diferencia!"
+    },
+    "modernBartering": {
+      "title": "Trueque Moderno",
+      "description": "Artículos, habilidades o incluso algo de efectivo. Tratos flexibles y justos para todos.",
+      "backTitle": "¡Trueques Flexibles!",
+      "backDescription": "Negocia con facilidad. Tus términos, tus tesoros. Combina ofertas para el canje perfecto."
+    },
+    "smartDiscovery": {
+      "title": "Descubrimiento Inteligente",
+      "description": "¡Desliza para encontrar tesoros! Encuentra exactamente lo que necesitas de gente local cercana.",
+      "backTitle": "¡Encuentra Joyas Locales!",
+      "backDescription": "Nuestros filtros inteligentes y la interfaz de deslizamiento hacen que encontrar tu próximo trueque sea fácil y divertido."
+    },
+    "skillExchange": {
+      "title": "Centro de Intercambio de Habilidades",
+      "description": "¡Comparte talentos, aprende cosas nuevas! Conecta con otros y crezcan juntos.",
+      "backTitle": "¡Intercambio de Talentos!",
+      "backDescription": "Enseña, aprende, colabora. Desbloquea tu potencial intercambiando habilidades valiosas."
+    }
+  },
+  "coreValues": {
+    "title": "Nuestros Valores Fundamentales",
+    "sustainability": {
+      "title": "Sostenibilidad",
+      "description": "Promoviendo la reutilización y reduciendo residuos para un planeta más sano."
+    },
+    "community": {
+      "title": "Comunidad",
+      "description": "Construyendo conexiones locales fuertes a través de experiencias compartidas."
+    },
+    "trust": {
+      "title": "Confianza y Seguridad",
+      "description": "Fomentando un ambiente seguro y respetuoso para todos los miembros."
+    },
+    "value": {
+      "title": "Valor Más Allá del Dinero",
+      "description": "Reconociendo el valor inherente de las habilidades, artículos y tiempo."
+    }
+  },
+  "inspiredExchanges": {
+    "title": "Inspírate con Intercambios",
+    "exchange1_item1": "Clases de Guitarra",
+    "exchange1_item2": "Bufanda Tejida a Mano",
+    "exchange2_item1": "Diseño Gráfico",
+    "exchange2_item2": "Verduras Frescas del Huerto",
+    "exchange3_item1": "Estantería Vintage",
+    "exchange3_item2": "Tutoría de Idiomas (Inglés)",
+    "exchange4_item1": "Pan Casero",
+    "exchange4_item2": "Servicio de Reparación de Bicicletas"
+  },
+  "testimonials": {
+    "title": "Voces de Trueque",
+    "testimonial1": {
+      "quote": "¡Cambié mi vieja cámara por unas clases de cerámica increíbles! Trueque me ayudó a encontrar un nuevo pasatiempo y una amiga.",
+      "name": "Carlos G.",
+      "detail": "Artista Local"
+    },
+    "testimonial2": {
+      "quote": "Necesitaba ayuda con mi jardín y encontré a alguien dispuesto a cambiar su buena mano para las plantas por mis habilidades de programación. ¡Todos ganamos!",
+      "name": "Ana R.",
+      "detail": "Desarrollador de Software"
+    },
+    "testimonial3": {
+      "quote": "Es mucho más gratificante que simplemente comprar nuevo. Me encanta dar una segunda vida a mis objetos y conectar con la gente.",
+      "name": "Hector V.",
+      "detail": "Madre Eco-consciente"
+    }
+  },
+  "impact": {
+    "title": "<span class=\"gradient-text\">Más Allá de Transacciones,</span><br/>¡Construimos Conexiones Vibrantes!",
+    "lead": "Trueque no se trata solo de cosas; se trata de las <strong class=\"highlight-accent\">personas</strong> y las <strong class=\"highlight-accent\">historias</strong> detrás de cada intercambio.",
+    "listItem1": "Descubre artículos únicos con historia.",
+    "listItem2": "Aprende nuevas habilidades de apasionados locales.",
+    "listItem3": "Reduce tu huella, un trueque a la vez.",
+    "listItem4": "Únete a una red animada que valora compartir."
+  },
+  "cta": {
+    "title": "¿Listo para <span class=\"pulsing-text\">Revitalizar</span> el Intercambio?",
+    "subtitle": "Desbloquea valor, descubre comunidad y prospera con la conexión sobre el efectivo con Trueque.",
+    "buttonJoin": "¡Únete al Movimiento!",
+    "buttonTest": "Explora Trueque"
+  },
+  "footer": {
+    "copyright": "© 2023 Trueque. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "contact": "Contáctanos"
+  },
+  "howItWorksPage": {
+  "title": "Cómo funciona Trueque",
+  "matchingTitle": "Sistema de Emparejamiento",
+  "matchingText": "Encuentra coincidencias perfectas con nuestra IA:",
+  "matchingFeatures": [
+    "Desliza entre artículos seleccionados",
+    "Notificaciones de coincidencia",
+    "Filtros avanzados",
+    "Recomendaciones por ubicación"
+  ],
+  "negotiationTitle": "Negociación en Tiempo Real",
+  "negotiationText": "Herramientas para crear acuerdos perfectos:",
+  "negotiationFeatures": [
+    "Ofertas combinando múltiples artículos",
+    "Ajustes con dinero en efectivo",
+    "Contraofertas instantáneas",
+    "Calculadora visual de valor"
+  ],
+  "managementTitle": "Gestión Inteligente",
+  "managementText": "Control total de tus intercambios:",
+  "managementFeatures": [
+    "Fotos 360° de tus artículos",
+    "Sistema de clasificación de estado",
+    "Historial completo",
+    "Sugerencias de precios automáticas"
+  ],
+  "chatMessages": [
+    "¡Cambiemos mi mesa por tu sillón!",
+    "¿Qué tal añadir 2 libros para equilibrar?",
+    "¡Trato! Nos vemos mañana 👋"
+  ],
+  "uploadText": "Arrastra para subir artículos"
+}
+}

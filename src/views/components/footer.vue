@@ -58,7 +58,7 @@
     const lang = locale.value
     return {
       instagram: lang === 'es' ? 'https://instagram.com/trueque.es' : 'https://instagram.com/trueque.en',
-      facebook: lang === 'es' ? 'https://facebook.com/trueque.' : 'https://facebook.com/trueque',
+      facebook: lang === 'es' ? 'https://www.facebook.com/profile.php?id=61574890337035' : 'https://www.facebook.com/profile.php?id=61574936397748',
       tiktok: lang === 'es' ? 'https://tiktok.com/@trueque.es' : 'https://tiktok.com/@trueque.en',
       youtube: lang === 'es' ? 'https://youtube.com/@trueque-es' : 'https://youtube.com/@trueque-en',
     }
