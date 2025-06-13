@@ -4,6 +4,10 @@
   "About Us": "About Us",
   "Privacy Policy": "Privacy Policy",
   "Sign Up": "Sign Up",
+  "Connecting communities through sustainable exchange.": "Connecting communities through sustainable exchange.",
+  "Follow Us": "Follow Us",
+  "Contact Us": "Contact Us",
+  "All rights reserved.": "All rights reserved.",
   "hero": {
     "titleHighlight": "Trueque:",
     "titleMain": "Where Community Meets Exchange",
@@ -125,37 +129,169 @@
     "terms": "Terms of Service",
     "contact": "Contact Us"
   },
-  "howItWorksPage": {
-    "title": "How Trueque Works",
-    "matchingTitle": "Smart Matching System",
-    "matchingText": "Find perfect matches with our AI-powered suggestions:",
-    "matchingFeatures": [
-      "Swipe through curated items",
-      "Instant match notifications",
-      "Advanced preference filters",
-      "Location-based recommendations"
-    ],
-    "negotiationTitle": "Real-Time Negotiation",
-    "negotiationText": "Powerful tools to create perfect deals:",
-    "negotiationFeatures": [
-      "Multi-item combination offers",
-      "Cash balance adjustments",
-      "Instant counter-offers",
-      "Visual trade value calculator"
-    ],
-    "managementTitle": "Smart Management",
-    "managementText": "Complete control over your trades:",
-    "managementFeatures": [
-      "360° item photography",
-      "Condition grading system",
-      "Complete trade history",
-      "Automated pricing suggestions"
-    ],
-    "chatMessages": [
-      "Let's trade my coffee table for your armchair!",
-      "How about adding 2 books to balance?",
-      "Deal! Let's meet tomorrow 👋"
-    ],
-    "uploadText": "Drag & Drop to Upload Items"
-  }
+
+
+    "how-it-works": {
+        "pageTitle": "How Trueque Works: Your Journey to Smarter Exchange",
+        "intro": {
+          "title": "Unlock a World of Exchange, Step by Step",
+          "subtitle": "Discover how Trueque makes bartering simple, fun, and effective. From finding your perfect match to sealing the deal, we've designed a seamless experience for our community."
+        },
+        "step1": {
+          "superTitle": "Step 1: Discover & Match",
+          "title": "Find Your Perfect Exchange Partner",
+          "description": "Begin your Trueque adventure by creating your profile and listing items or skills you want to exchange. Our intuitive, Tinder-like matching system helps you discover exactly what you're looking for. Swipe through offerings, and if another user likes something of yours that you've also shown interest in from them – it's a Match! This kicks off the exciting bartering process.",
+          "feature1_title": "Smart Matching",
+          "feature1_desc": "Our algorithm suggests relevant items and skills based on your preferences and listings.",
+          "feature2_title": "Precision Search",
+          "feature2_desc": "Looking for something specific? Use advanced filters like category, color, material, location, and even weight to narrow down your search."
+        },
+        "step2": {
+          "superTitle": "Step 2: Connect & Communicate",
+          "title": "Chat with Your Matches Intelligently",
+          "description": "Once you've matched, our integrated chat springs to life! It's not just any chat – it intelligently displays the items or skills that you and your match have mutually liked. This real-time visibility makes it easy to see what sparked the connection and jumpstart your negotiation.",
+          "feature1_title": "Contextual Chat",
+          "feature1_desc": "See liked items directly in your chat window for focused conversations.",
+          "feature2_title": "Real-time Updates",
+          "feature2_desc": "As preferences change or new items are liked, the chat context updates instantly."
+        },
+        "step3": {
+          "superTitle": "Step 3: Negotiate Like a Pro",
+          "title": "Craft the Perfect Offer",
+          "description": "Our dynamic negotiation feature puts you in control. Clearly propose what you want from your match and what you're offering in return from your available items or skills. Need to balance the deal? You can even suggest or request an additional monetary value to make the exchange perfectly fair for both parties. View past offers to learn and strategize!",
+          "feature1_title": "Flexible Offers",
+          "feature1_desc": "Combine items, skills, and optional cash to create tailored proposals.",
+          "feature2_title": "Transparent History",
+          "feature2_desc": "Keep track of offer iterations and view past offers for reference."
+        },
+        "step4": {
+          "superTitle": "Step 4: Explore & Build Trust",
+          "title": "Know Your Trading Partner",
+          "description": "Transparency is key in Trueque. Before committing to an exchange, dive into your match's profile. You can see a detailed list of all items and skills they offer, their complete trade history (number of successful trades), and authentic reviews from other users they've exchanged with. After your trade, contribute to the community by leaving your own honest review!",
+          "feature1_title": "Detailed Profiles",
+          "feature1_desc": "View comprehensive item/skill listings for any user.",
+          "feature2_title": "Verified Reviews",
+          "feature2_desc": "Read feedback from past trades to build confidence.",
+          "feature3_title": "Trade Count",
+          "feature3_desc": "See how experienced a trader is at a glance."
+        },
+        "step5": {
+          "superTitle": "Step 5: Manage Your Inventory",
+          "title": "Showcase Your Wares & Skills",
+          "description": "Easily upload and manage your items and skills. Provide detailed descriptions, add clear photos, and categorize everything to make it easy for others to find. A well-managed inventory is your key to attracting great matches and successful exchanges.",
+          "feature1_title": "Easy Upload",
+          "feature1_desc": "Quickly add items and skills with our user-friendly interface.",
+          "feature2_title": "Organized Inventory",
+          "feature2_desc": "Keep your offerings up-to-date and well-described."
+        },
+        "outro": {
+          "title": "Ready to Start Your Trueque Journey?",
+          "subtitle": "Join our growing community and rediscover the joy of meaningful exchange. It's more than just bartering; it's about connection, sustainability, and unlocking hidden value.",
+          "ctaButton": "Sign Up & Start Exchanging"
+        }
+    },
+
+    "Trueque": "Trueque",
+    "Trade what you have, find what you need, connect with your community.": "Trade what you have, find what you need, connect with your community.",
+    "\"Technology should serve people and bring communities together, not divide them.\"": "\"Technology should serve people and bring communities together, not divide them.\"",
+    "Founder": "Founder",
+    "Why Trueque Exists": "Why Trueque Exists",
+    "We often throw away things we no longer use—or hide our talents in jobs that don't value them. I believe:": "We often throw away things we no longer use—or hide our talents in jobs that don't value them. I believe:",
+    "Our objects, even unused ones, still have value.": "Our objects, even unused ones, still have value.",
+    "Our skills should help more than just our employers.": "Our skills should help more than just our employers.",
+    "Our communities thrive when we support each other, not compete.": "Our communities thrive when we support each other, not compete.",
+    "📚 Books": "📚 Books",
+    "🎨 Art": "🎨 Art",
+    "🔧 Skills": "🔧 Skills",
+    "👕 Clothes": "👕 Clothes",
+    "\"Value should flow—not sit still\"": "\"Value should flow—not sit still\"",
+    "What You Can Do With Trueque": "What You Can Do With Trueque",
+    "Forget the store. Skip the expensive company.": "Forget the store. Skip the expensive company.",
+    "is here to help you:": "is here to help you:",
+    "Trade Items": "Trade Items",
+    "Exchange goods you no longer need for things you want": "Exchange goods you no longer need for things you want",
+    "Offer Skills": "Offer Skills",
+    "Share your talents to help others in your community": "Share your talents to help others in your community",
+    "Find Locally": "Find Locally",
+    "Discover goods and services near you": "Discover goods and services near you",
+    "Reduce Waste": "Reduce Waste",
+    "Give items a second life instead of throwing them away": "Give items a second life instead of throwing them away",
+    "Save Money": "Save Money",
+    "Get what you need without spending cash": "Get what you need without spending cash",
+    "Connect": "Connect",
+    "Meet like-minded people in your area": "Meet like-minded people in your area",
+    "Our Mission": "Our Mission",
+    "In many places around the world, people may lack money—but not generosity, ideas, or heart.": "In many places around the world, people may lack money—but not generosity, ideas, or heart.",
+    "Someone can start a business without capital": "Someone can start a business without capital",
+    "A family can trade a meal for help with repairs": "A family can trade a meal for help with repairs",
+    "A collector finds a missing piece in someone else's garage": "A collector finds a missing piece in someone else's garage",
+    "No one is excluded because of money": "No one is excluded because of money",
+    "Human connection is worth more than price tags": "Human connection is worth more than price tags",
+    "Trades Made": "Trades Made",
+    "Community Members": "Community Members",
+    "💡 Idea": "💡 Idea",
+    "✏️ Design": "✏️ Design",
+    "💻 Code": "💻 Code",
+    "🚀 Launch": "🚀 Launch",
+    "❤️ Community": "❤️ Community",
+    "Built by One, Made for Many": "Built by One, Made for Many",
+    "I planned, designed, and built Trueque on my own. It hasn't been easy—but what keeps me going is the vision of a world where people trade, trust, and grow together.": "I planned, designed, and built Trueque on my own. It hasn't beeneasy—but what keeps me going is the vision of a world where people trade, trust, and grow together.",
+    "I picture streets, towns, and cities where Trueque helps people reconnect—not just with stuff, but with each other.": "I picture streets, towns, and cities where Trueque helps people reconnect—not just with stuff, but with each other.",
+    "Let's Build the Future Together": "Let's Build the Future Together",
+    "If you're already using Trueque—": "If you're already using Trueque—",
+    "thank you": "thank you",
+    "Your feedback means the world to me.": "Your feedback means the world to me.",
+    "Because this isn't just an app—it's a movement.": "Because this isn't just an app—it's a movement.",
+    "Your thoughts, ideas, feedback...": "Your thoughts, ideas, feedback...",
+    "Send": "Send",
+
+
+        "waitlist": {
+          "logoText": "Trueque",
+          "headline": "Trade What You Don't Need for What You Do – No Money Needed!",
+          "description": "Trueque helps you get that house fix, special toy, new car, or help with your garden without spending any money. Simply offer something you no longer need and start trading. Join the waitlist now to be among the first to try it out!",
+          "appPreview": {
+            "screenshotAlt": "Trueque app interface sneak peek"
+        },
+          "countdownTitle": "The wait is almost over! Our app is launching in:",
+          "days": "Days",
+          "hours": "Hours",
+          "minutes": "Minutes",
+          "seconds": "Seconds",
+          "launched": "Trueque is LIVE! Check it out!",
+          "socialProof": "Join {count}+ others already on the waitlist – Don’t miss out on early access!",
+          "testimonial": "Trueque is a game-changer! I swapped an old bike for a new coffee maker – it's like a marketplace but with no cash involved!",
+          "userName": "Alex P.",
+          "formTitle": "Enter your email to join the waitlist:",
+          "emailPlaceholder": "Your email address",
+          "submit": "Submit",
+          "submitting": "Submitting...",
+          "submitSuccess": "Thanks for joining! We'll keep you updated.",
+          "submitError": "Please enter a valid email.",
+          "privacy": "We respect your privacy. Your email will only be used to notify you about Trueque's launch and updates.",
+          "incentivesTitle": "Sign up now to get:",
+          "incentive1": "Exclusive early access features",
+          "incentive2": "Special updates just for waitlist members",
+          "incentive3": "Priority placement for your items",
+          "faqTitle": "Frequently Asked Questions",
+          "faqs": [
+            {
+              "question": "What is Trueque?",
+              "answer": "Trueque is a revolutionary app that lets you trade what you don't need for what you do, without using money. You offer an item, and someone else offers something in exchange. It's that simple."
+            },
+            {
+              "question": "How does the trade process work?",
+              "answer": "Just offer an item you no longer need and browse available trades. You'll get notifications when someone is interested in your offer. Once you match, you trade directly through the app!"
+            },
+            {
+              "question": "When will the app be available?",
+              "answer": "We're launching on June 12! Be the first to try it out by joining the waitlist now."
+            }
+          ],
+          "finalCta": "Get Early Access – Join the Waitlist Today!",
+          "benefitReminder": "No payment, just trade. Start swapping today!",
+          "joinButton": "Join the Waitlist"
+        }
+
+
 }

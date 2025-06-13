@@ -1,7 +1,17 @@
+  /* Color scheme */
+  /* :root {
+    --gradient-primary: linear-gradient(135deg, #27ae60 0%, #2c3e50 100%);
+    --gradient-reverse: linear-gradient(135deg, #2c3e50 0%, #27ae60 100%);
+    --text-dark: #2c3e50;
+    --text-light: #f8fff9;
+    --bg-light: #f8fff9;
+    --accent: #2ecc71;
+    --signup-color: #2ecc71;
+    --border-radius: 8px;
+  } */
+
 
   :root {
-
-
     --gradient-primary: linear-gradient(135deg, #27ae60 0%, #219653 50%, #2c3e50 100%);
     --gradient-reverse: linear-gradient(135deg, #2c3e50 0%, #27ae60 100%);
     --gradient-accent: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
@@ -13,19 +23,7 @@
     --border-radius: 12px;
     --light-shade-bg: #f0f5f3;
     --primary-font: 'Poppins', sans-serif;
-    --primary-start: #27ae60;
-    --bg-light: #f4f7f6;
-
-
-    /* --gradient-primary: linear-gradient(135deg, #27ae60 0%, #2c3e50 100%);
-    --gradient-reverse: linear-gradient(135deg, #2c3e50 0%, #27ae60 100%); */
-
-
-    --jwl-box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-    --at-box-shadow: 0 8px 20px rgba(0,0,0,0.1); /* keep as is */
-
-    --at-transition: all 0.3s ease; /* keep as is */
-    --jwl-transition: all 0.3s ease;
-
-
   }
+
+
+  

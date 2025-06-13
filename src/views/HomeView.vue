@@ -16,13 +16,13 @@
         <div class="hero-content">
           <h1 class="hero-title animate-fade-in-down">
             <span class="char" v-for="(char, index) in $t('hero.titleHighlight').split('')" :key="`t-${index}`" :style="{animationDelay: `${index * 0.05}s`}">{{ char }}</span>
-            <span class="hero-title-main">{{ $t('hero.titleMain') }}</span>
+            <span class="hero-title-main" style="color: white !important;">{{ $t('hero.titleMain') }}</span>
           </h1>
           <p class="hero-subtitle animate-fade-in-up animation-delay-500 text-light lead">
             {{ $t('hero.subtitle') }}
           </p>
           <div class="hero-cta animate-fade-in-up animation-delay-700">
-            <button class="btn btn-accent btn-lg me-3" @click="scrollToSection('how-it-works')">
+            <button class="btn btn-accent btn-lg me-3" @click="$router.push({ name: 'how-it-works' });">
               <span>{{ $t('hero.ctaDiscover') }}</span> ✨
             </button>
             <button class="btn btn-outline-light btn-lg" @click="scrollToSection('features')">
@@ -179,8 +179,8 @@
             {{ $t('cta.subtitle') }}
           </p>
           <div class="d-flex justify-content-center gap-3 cta-buttons">
-            <button class="btn btn-accent btn-lg shadow-lg"><span>{{ $t('cta.buttonJoin') }}</span> 🎉</button>
-            <button class="btn btn-outline-light btn-lg shadow-lg"><span>{{ $t('cta.buttonTest') }}</span> <span class="arrow-anim">→</span></button>
+            <button class="btn btn-accent btn-lg shadow-lg" @click="$router.push({ name: 'signup' });"><span>{{ $t('cta.buttonJoin') }}</span> 🎉</button>
+            <button class="btn btn-outline-light btn-lg shadow-lg" @click="$router.push({ name: 'about' });"><span>{{ $t('cta.buttonTest') }}</span> <span class="arrow-anim">→</span></button>
           </div>
         </div>
       </section>
@@ -333,7 +333,7 @@ onUnmounted(() => {
 });
 </script>
 
-<style >
+<style scoped>
 /* Base Styles */
 
 .trueque-homepage-container {

@@ -40,7 +40,7 @@
             </button>
           </div>
 
-          <a href="#signup" class="sign-up-button"  :class="{ 'active': activeLink === null }" @click="setActiveLink('signup')">
+          <a href="https://app.trueque.art/#/" class="sign-up-button"  :class="{ 'active': activeLink === null }">
             {{ $t("Sign Up") }}
           </a>
 
@@ -89,19 +89,19 @@
                 <button
                   class="mobile-language-option"
                   :class="{ 'active': language === 'en' }"
-                  @click="setLanguage('en')"
+                  @click="setLanguageMobile('en')"
                 >
                   English
                 </button>
                 <button
                   class="mobile-language-option"
                   :class="{ 'active': language === 'es' }"
-                  @click="setLanguage('es')"
+                  @click="setLanguageMobile('es')"
                 >
                   Español
                 </button>
               </div>
-               <a href="#signup" class="mobile-sign-up-button"  :class="{ 'active': activeLink === null }" @click="() => { setActiveLink('signup'); toggleMobileMenu(); }">
+               <a href="https://app.trueque.art/#/" class="mobile-sign-up-button"  :class="{ 'active': activeLink === null }" >
                   {{ $t("Sign Up") }}
                 </a>
             </div>
@@ -118,29 +118,35 @@
   const { t } = useI18n();
 
   const middleLinks = computed(() => [
-    { name: t('Home'), href: '#' },
+    { name: t('Home'), href: '#home' },
     { name: t('How It Works'), href: '#how-it-works' },
     { name: t('About Us'), href: '#about' },
     { name: t('Privacy Policy'), href: '#privacy' }
     ]);
-  const activeLink = ref('Home');
+  const activeLink = ref(null);
   const isScrolled = ref(false);
   const isMobileOpen = ref(false);
   const language = ref('en');
 
   const setActiveLink = (linkName) => {
     // If the sign-up is clicked, we clear any active middle link
-    if (linkName === 'signup') {
+    if (linkName === 'sign-up') {
         activeLink.value = null;
     } else {
         activeLink.value = linkName;
     }
-    };
+
+  };
 
 
   const setLanguage = (lang) => {
     language.value = lang;
     locale.value = lang;
+  };
+
+  const setLanguageMobile = (lang) => {
+    setLanguage(lang);
+    toggleMobileMenu();
   };
 
   const toggleMobileMenu = () => {
@@ -161,9 +167,23 @@
     isScrolled.value = window.scrollY > 10;
   };
 
+  // Update active link based on the current URL hash
+    const updateActiveLinkFromHash = () => {
+        const currentHash = window.location.hash.replace('#', '');
+        if (currentHash) {
+            activeLink.value = middleLinks.value.find(link => link.href === `#${currentHash}`)?.name || null;
+        } else {
+            activeLink.value = null; // Set to null if there's no hash in the URL (i.e., "Home")
+        }
+    };
+
   onMounted(() => {
     window.addEventListener('scroll', handleScroll);
     language.value = locale.value;
+
+    updateActiveLinkFromHash();
+
+    window.addEventListener('hashchange', updateActiveLinkFromHash);
   });
 
   onBeforeUnmount(() => {
@@ -181,7 +201,8 @@
     left: 0; */
     width: 100%;
     padding: 1.2rem 0;
-    background: var(--gradient-primary);
+    /* background: var(--gradient-primary); */
+    background: black;
     z-index: 1000;
     transition: all 0.4s ease;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
@@ -243,13 +264,13 @@
   }
 
     .sign-up-button.active {
-        background: var(--signup-color);
+        background: var(--sign-up-color);
         color: white;
         border: 2px solid white;
     }
 
     .mobile-sign-up-button.active {
-        background: var(--signup-color);
+        background: var(--sign-up-color);
         color: white;
         border: 2px solid white;
     }

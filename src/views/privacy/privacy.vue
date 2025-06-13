@@ -1,0 +1,487 @@
+<template>
+
+    <div class="content my-5">
+        <div class="content-container">
+            <h1>Privacy Policy</h1>
+            <p class="description">Last Updated: 22/02/2025</p>
+
+            <p class="description">Thank you for using Trueque! Your privacy is important to us. This Privacy Policy explains how we collect, use, store, and protect your information when you use our app. By using Trueque, you agree to the terms outlined below. If you disagree, please discontinue use.</p>
+
+            <h2>1. Information We Collect</h2>
+
+            <h3>1.1 Data You Provide</h3>
+            <ul class="policy-list">
+                <li><span class="highlight">Personal Information:</span> Name, email, password, profile picture, and manually entered location (during registration)</li>
+                <li><span class="highlight">Product/Service Information:</span> Name, description, color, weight, price, category, material, and images</li>
+                <li><span class="highlight">Chat Information:</span> Text messages, timestamps, sender/recipient details, and read status</li>
+                <li><span class="highlight">Offers/Ratings:</span> Products/services/money exchanged, ratings (1-5), comments, and timestamps</li>
+            </ul>
+
+            <h3>1.2 Automatically Collected Data</h3>
+            <ul class="policy-list">
+                <li><span class="highlight">Location Data:</span> Only collected via manual input (e.g., during registration). We do not track your device's GPS or precise location</li>
+                <li>No device identifiers, IP addresses, or usage logs collected</li>
+            </ul>
+
+            <h2>2. How We Use Your Information</h2>
+            <ul class="policy-list">
+                <li>Enable core features (profile creation, product listings, and exchanges)</li>
+                <li>Facilitate discovery of nearby products/services</li>
+                <li>Power real-time communication between users</li>
+                <li>Send verification codes, password resets, and policy updates</li>
+                <li>Monitor and prevent unauthorized access</li>
+            </ul>
+
+            <p class="description"><strong>We Do NOT:</strong><br>
+            - Sell, trade, or rent your data<br>
+            - Use your data for advertising, marketing, or analytics</p>
+
+            <h2>3. Third-Party Services</h2>
+
+            <table class="bigScreen">
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Purpose</th>
+                        <th>Data Shared</th>
+                        <th>Privacy Policy</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Railway</td>
+                        <td>Backend hosting</td>
+                        <td>Necessary app data</td>
+                        <td><a href="https://railway.com/legal/privacy" target="_blank">View Policy</a></td>
+                    </tr>
+                    <tr>
+                        <td>AWS (S3)</td>
+                        <td>Image storage</td>
+                        <td>Profile/product images</td>
+                        <td><a href="http://aws.amazon.com/privacy/" target="_blank">View Policy</a></td>
+                    </tr>
+                    <tr>
+                        <td>Photon</td>
+                        <td>Address autocomplete</td>
+                        <td>Manual location input</td>
+                        <td><a href="https://www.photon.com/privacy#:~:text=Photon%20does%20not%20share%20your,Business%20partners" target="_blank">View Policy</a></td>
+                    </tr>
+                    <tr>
+                        <td>Pusher</td>
+                        <td>Real-time chat</td>
+                        <td>Chat messages</td>
+                        <td><a href="https://pusher.com/legal-archived/tspp/#:~:text=We%20may%20store%20personal%20data,have%20an%20account%20with%20Pusher." target="_blank">View Policy</a></td>
+                    </tr>
+                    <tr>
+                        <td>SMTP</td>
+                        <td>Email delivery</td>
+                        <td>Email addresses</td>
+                        <td><a href="https://www.smtp.com/policies/tspp/#:~:text=We%20may%20collect%20or%20obtain,about%20you%20from%20third%20parties." target="_blank">View Policy</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="service-table smallScreen">
+                <tbody>
+                    <tr>
+                        <td>
+                            <strong>Railway</strong>
+                            <p>Backend hosting</p>
+                            <p>Necessary app data</p>
+                            <a href="https://railway.com/legal/privacy" target="_blank">View Policy</a>
+                        </td>
+                        <td>
+                            <strong>AWS (S3)</strong>
+                            <p>Image storage</p>
+                            <p>Profile/product images</p>
+                            <a href="http://aws.amazon.com/privacy/" target="_blank">View Policy</a>
+                        </td>
+                        <td>
+                            <strong>Photon</strong>
+                            <p>Address autocomplete</p>
+                            <p>Manual location input</p>
+                            <a href="https://www.photon.com/privacy#:~:text=Photon%20does%20not%20share%20your,Business%20partners" target="_blank">View Policy</a>
+                        </td>
+                        <td>
+                            <strong>Pusher</strong>
+                            <p>Real-time chat</p>
+                            <p>Chat messages</p>
+                            <a href="https://pusher.com/legal-archived/tspp/#:~:text=We%20may%20store%20personal%20data,have%20an%20account%20with%20Pusher." target="_blank">View Policy</a>
+                        </td>
+                        <td>
+                            <strong>SMTP</strong>
+                            <p>Email delivery</p>
+                            <p>Email addresses</p>
+                            <a href="https://www.smtp.com/policies/tspp/#:~:text=We%20may%20collect%20or%20obtain,about%20you%20from%20third%20parties." target="_blank">View Policy</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="description"><strong>Data Processors:</strong> These third parties act under our instructions and comply with GDPR/CCPA.<br>
+            <strong>International Transfers:</strong> Data may be transferred globally using GDPR-approved safeguards (e.g., SCCs).</p>
+
+            <h2>4. Data Sharing & Your Rights</h2>
+
+            <h3>4.1 No Sale/Sharing</h3>
+            <p class="description">We do not sell, trade, or share your data with external parties except as necessary for app functionality (see Section 3).</p>
+
+            <h3>4.2 Your Control</h3>
+            <ul class="policy-list">
+                <li>
+                    <span class="highlight">Access/Update:</span>
+                    Edit your profile/data in-app or email
+                    <a href="mailto:truequeww@gmail.com">truequeww@gmail.com</a>
+                </li>
+                <li>
+                    <span class="highlight">Deletion:</span>
+                    If you would like to request the deletion of your account and all associated data, please follow the steps below:
+                    <ol class="sub-list">
+                        <li>
+                            <strong>Send an Email:</strong>
+                            To request the deletion of your account, please send an email to <a href="mailto:truequeww@gmail.com?subject=Account%20Deletion%20Request" target="_blank"> truequeww@gmail.com</a> with the subject line "Account Deletion Request".
+                        </li>
+                        <li>
+                            <strong>Data Deletion:</strong>
+                            Once your request is processed, all account-related data will be permanently deleted, except for any data that must be retained due to legal requirements (e.g., transaction history, tax records).
+                        </li>
+                        <li>
+                            <strong>Confirmation & Timeframe:</strong>
+                            You will receive a confirmation email within 24 hours, and your account will be deleted within 7 business days.
+                        </li>
+                    </ol>
+                    For more details, please visit our <a @click="$router.push({ name: 'privacy-delete-account' });" style="cursor: pointer; color: blue; text-decoration: underline;"> Account Deletion Request Page.</a>
+                </li>
+            </ul>
+
+            <h3>CCPA/GDPR Rights</h3>
+            <ul class="policy-list">
+                <li>Right to know what personal data is collected</li>
+                <li>Right to correct inaccurate information</li>
+                <li>Right to delete personal data</li>
+                <li>Right to opt-out of data sales (not applicable as we don't sell data)</li>
+            </ul>
+
+            <p class="description">Submit requests via email. We respond within 30 days and verify identity before processing.</p>
+
+            <h2>5. Data Security</h2>
+            <ul class="policy-list">
+                <li>Passwords hashed with bcrypt algorithm</li>
+                <li>SSL/TLS encryption for data transmission</li>
+                <li>Limited access to authorized personnel only</li>
+                <li>Images stored on AWS S3 with encryption at rest</li>
+            </ul>
+
+            <h2>6. Children’s Privacy</h2>
+            <p class="description">Trueque is not intended for users under 13 (or 16 in the EU). We do not knowingly collect data from minors. To report underage users or harmful content:</p>
+                <ul class="policy-list">
+                    <li>Use the in-app chat (tap Truequi’s icon and describe the issue).</li>
+                    <li>Email <a href="mailto:truequeww@gmail.com">truequeww@gmail.com</a>.</li>
+                </ul>
+            <p class="description">For details on how we protect minors, review our <a @click="$router.push({ name: 'child-safety-standards' });" style="cursor: pointer; color: blue; text-decoration: underline;">Child Safety Standards</a>.</p>
+
+
+            <h2>7. Updates & Contact</h2>
+            <p class="description"><strong>Policy Changes:</strong> Notified via email or in-app alerts. Continued use after updates implies acceptance.</p>
+
+            <p class="description"><strong>Contact Us:</strong><br>
+            Email: <a href="mailto:truequeww@gmail.com">truequeww@gmail.com</a><br>
+            </p>
+
+            <p class="description"><strong>Effective Date:</strong> 22/02/2025</p>
+        </div>
+    </div>
+
+</template>
+
+<style scouped>
+/* 
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Rubik", sans-serif;
+    background-color: var(--text-light);
+    line-height: 1.6;
+    overflow-x: hidden;
+} */
+
+
+body {
+ 
+    background-color: var(--text-light);
+
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 30px auto;
+    overflow: hidden;
+    border: 3px solid var(--text-dark);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.circle:hover {
+    transform: scale(1.05);
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  
+    padding-top: 0px;
+}
+
+.content-container {
+    max-width: 700px;
+    padding: 40px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    margin: 20px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0 0 1.5rem;
+    color: var(--text-dark);
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+h2 {
+    color: var(--text-dark);
+    margin: 2rem 0 1rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+h3 {
+    color: var(--text-dark);
+    margin: 1.5rem 0 0.8rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.description {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin: 1.5rem 0;
+    font-weight: 400;
+}
+
+.policy-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem;
+}
+
+.policy-list li {
+    margin: 1rem 0;
+    padding: 10px 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.highlight {
+    color: var(--accent-color);
+    font-weight: 500;
+}
+
+.bigScreen {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background-color: var(--accent-color);
+    color: white;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+footer {
+    background: var(--text-dark);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: auto;
+    border-top: 3px solid var(--accent-color);
+}
+
+.footer-content {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: var(--accent-color);
+}
+
+.smalScreen{
+    display: none;
+}
+
+.service-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 15px;
+    margin: 2rem 0;
+    display: none;
+}
+
+.service-table td {
+    background: #f8fff9;
+    border-radius: 12px;
+    padding: 20px;
+    vertical-align: top;
+    border: 2px solid #e8f5e9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    text-align: center;
+}
+
+.service-table td:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.service-table td strong {
+    display: block;
+    color: #2c3e50;
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.service-table td p {
+    color: #7f8c8d;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 8px 0;
+}
+
+.service-table a {
+    display: inline-block;
+    color: #2ecc71;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.service-table a:hover {
+    background: rgba(46, 204, 113, 0.1);
+    color: #27ae60;
+}
+
+.sub-list {
+margin: 10px 0 10px 20px;
+padding-left: 15px;
+}
+
+.sub-list li {
+margin: 8px 0;
+padding: 8px 12px;
+background: #f0faf3;
+border-left: 3px solid var(--accent-color);
+}
+
+.sub-list ol {
+list-style-type: decimal;
+}
+
+.sub-list ul {
+list-style-type: circle;
+}
+
+@media (max-width: 768px) {
+    .service-table {
+        width: 100%;
+        display: block;
+        border-spacing: 0;
+    }
+
+    .service-table tbody {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 15px;
+    }
+
+    .service-table tr {
+        display: contents;
+    }
+
+    .service-table td {
+
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-container {
+        padding: 25px;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .bigScreen{
+        display: none;
+    }
+
+    .smallScreen{
+        display: inline;
+    }
+}
+
+</style>

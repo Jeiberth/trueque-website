@@ -67,7 +67,9 @@
 
   <style scoped>
   .footer {
-    background: var(--gradient-primary);
+    /* background: var(--gradient-primary); */
+    background: black;
+
     color: var(--text-light);
     padding: 2.5rem 1rem 1rem;
     font-family: inherit;
@@ -87,6 +89,8 @@
     flex: 1;
     min-width: min(100%, 250px);
     margin-bottom: 1.5rem;
+    justify-content: flex-start !important;
+    margin-left: 100px !important;
   }
 
   .brand-section {
@@ -187,10 +191,26 @@
     text-decoration: underline;
   }
 
+  h4{
+    text-align: left;
+  }
+
+  .footer-description {
+    text-align: left;
+  }
+
   /* Mobile Optimization */
   @media (max-width: 768px) {
     .footer {
       padding: 2rem 0.5rem 1rem;
+    }
+
+    h4{
+      text-align: center;
+    }
+
+    .footer-description {
+      text-align: center;
     }
 
     .footer-container {
@@ -205,6 +225,8 @@
       width: 100%;
       max-width: 300px;
       margin-bottom: 1.5rem;
+      justify-content: center;
+      margin-left: 0 !important;
     }
 
     .logo-container {

@@ -1,0 +1,375 @@
+<template>
+    <div class="content my-5">
+        <div class="content-container">
+            <h1>Trueque Safety Standards & Child Protection Policy</h1>
+
+            <h2>1. Introduction</h2>
+            <p class="description">Trueque is committed to fostering a safe and respectful environment for all users. We adhere to Google Play’s policies on child safety and strictly prohibit content or behavior that exploits or endangers minors. This document outlines our safety practices, reporting mechanisms, and compliance with child protection laws.</p>
+
+            <h2>2. Safety Measures</h2>
+            <h3>Age Restrictions</h3>
+            <ul class="policy-list">
+                <li>Trueque is not intended for users under 13. By using the app, users confirm they are at least 13 years old.</li>
+                <li>We comply with the Children’s Online Privacy Protection Act (COPPA) and do not knowingly collect data from minors under 13.</li>
+            </ul>
+
+            <h3>Prohibited Content & Behavior</h3>
+            <ul class="policy-list">
+                <li>Sexualized, exploitative, or harmful material involving minors.</li>
+                <li>Content promoting illegal activities, including child sexual abuse material (CSAM).</li>
+                <li>Explicit or adult-themed items/services.</li>
+                <li>Harassment, bullying, or predatory behavior.</li>
+            </ul>
+
+            <h2>3. Reporting Mechanisms</h2>
+            <p class="description">Trueque provides two ways to report safety concerns:</p>
+
+            <h3>In-App Reporting via Truequi Chat:</h3>
+            <ul class="policy-list">
+                <li>
+                    <span class="highlight">Tap the chat icon:</span> (Truequi’s face) on any screen
+                </li>
+                <li>
+                    <span class="highlight">Send a message:</span> Describe the issue (e.g., harmful content, underage users, or suspicious behavior)
+                </li>
+                <li>
+                    <span class="highlight">Response:</span> Our team will respond within 24 hours and take action
+                </li>
+            </ul>
+
+            <h3>Email Reporting:</h3>
+            <ul class="policy-list">
+                <li>
+                    Contact <a href="mailto:truequeww@gmail.com?subject=SAFETY%20REPORT">truequeww@gmail.com</a> with subject line “SAFETY REPORT”
+                </li>
+                <li>
+                    Include:
+                    <ul class="sub-list">
+                        <li>Screenshots</li>
+                        <li>Usernames</li>
+                        <li>Relevant details</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>Response Protocol:</h3>
+            <ul class="policy-list">
+                <li><span class="highlight">Review:</span> All reports are reviewed within 24 hours</li>
+                <li><span class="highlight">Action:</span> Violations result in content removal, account suspension, or bans</li>
+                <li><span class="highlight">Escalation:</span> Suspected CSAM is reported to NCMEC and law enforcement</li>
+            </ul>
+
+            <h2>4. Compliance with Legal Obligations</h2>
+            <ul class="policy-list">
+                <li><span class="highlight">Law Enforcement Cooperation:</span> We fully cooperate with authorities in CSAE investigations.</li>
+                <li><span class="highlight">NCMEC Reporting:</span> All CSAM incidents are reported to NCMEC via their CyberTipline.</li>
+                <li><span class="highlight">Data Retention:</span> User data related to investigations is preserved for legal purposes.</li>
+            </ul>
+
+            <h2>5. User Accountability & Education</h2>
+            <ul class="policy-list">
+                <li>Users agree to our Community Guidelines during sign-up, which prohibit illegal or harmful content.</li>
+                <li>Safety tips and guidelines are provided via email upon request (contact <a href="mailto:truequeww@gmail.com">truequeww@gmail.com</a>).</li>
+            </ul>
+
+            <h2>6. Ongoing Commitment</h2>
+            <ul class="policy-list">
+                <li><span class="highlight">Policy Updates:</span> This document is reviewed regularly to align with evolving laws and platform standards.</li>
+                <li><span class="highlight">User Empowerment:</span> We encourage users to report suspicious activity and block abusive accounts.</li>
+            </ul>
+
+            <h2>Contact Information</h2>
+            <h3>Safety & Legal Inquiries</h3>
+            <ul class="policy-list">
+                <li><strong>Email:</strong> <a href="mailto:truequeww@gmail.com?subject=SAFETY%20REPORT">truequeww@gmail.com</a> (use subject line: “SAFETY REPORT”)</li>
+            </ul>
+
+            <p class="description">Access our full <a @click="$router.push({ name: 'privacy' });" style="cursor: pointer; color: blue; text-decoration: underline;">Privacy Policy</a></p>
+        </div>
+    </div>
+
+</template>
+
+<style>
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Rubik", sans-serif;
+    background-color: var( --text-light);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 30px auto;
+    overflow: hidden;
+    border: 3px solid var(--text-dark);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.circle:hover {
+    transform: scale(1.05);
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.content-container {
+    max-width: 700px;
+    padding: 40px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    margin: 20px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0 0 1.5rem;
+    color: var(--text-dark);
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+h2 {
+    color: var(--text-dark);
+    margin: 2rem 0 1rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+h3 {
+    color: var(--text-dark);
+    margin: 1.5rem 0 0.8rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.description {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin: 1.5rem 0;
+    font-weight: 400;
+}
+
+.policy-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem;
+}
+
+.policy-list li {
+    margin: 1rem 0;
+    padding: 10px 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.highlight {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.bigScreen {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+footer {
+    background: var(--text-dark);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: auto;
+    border-top: 3px solid var(--primary-color);
+}
+
+.footer-content {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: var(--primary-color);
+}
+
+.smalScreen{
+    display: none;
+}
+
+.service-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 15px;
+    margin: 2rem 0;
+    display: none;
+}
+
+.service-table td {
+    background: #f8fff9;
+    border-radius: 12px;
+    padding: 20px;
+    vertical-align: top;
+    border: 2px solid #e8f5e9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    text-align: center;
+}
+
+.service-table td:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.service-table td strong {
+    display: block;
+    color: #2c3e50;
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.service-table td p {
+    color: #7f8c8d;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 8px 0;
+}
+
+.service-table a {
+    display: inline-block;
+    color: #2ecc71;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.service-table a:hover {
+    background: rgba(46, 204, 113, 0.1);
+    color: #27ae60;
+}
+
+.sub-list {
+margin: 10px 0 10px 20px;
+padding-left: 15px;
+}
+
+.sub-list li {
+margin: 8px 0;
+padding: 8px 12px;
+background: #f0faf3;
+border-left: 3px solid var(--primary-color);
+}
+
+.sub-list ol {
+list-style-type: decimal;
+}
+
+.sub-list ul {
+list-style-type: circle;
+}
+
+@media (max-width: 768px) {
+    .service-table {
+        width: 100%;
+        display: block;
+        border-spacing: 0;
+    }
+
+    .service-table tbody {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 15px;
+    }
+
+    .service-table tr {
+        display: contents;
+    }
+
+    .service-table td {
+
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-container {
+        padding: 25px;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .bigScreen{
+        display: none;
+    }
+
+    .smallScreen{
+        display: inline;
+    }
+}
+
+</style>

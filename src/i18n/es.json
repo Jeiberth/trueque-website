@@ -4,25 +4,16 @@
   "About Us": "Sobre Nosotros",
   "Privacy Policy": "Política de Privacidad",
   "Sign Up": "Regístrate",
+  "Connecting communities through sustainable exchange.": "Conectando comunidades a través del intercambio sostenible.",
+  "Follow Us": "Síguenos",
+  "Contact Us": "Contáctenos",
+  "All rights reserved.": "Todos los derechos reservados.",
   "hero": {
     "titleHighlight": "Trueque:",
     "titleMain": "Donde la Comunidad se Encuentra con el Intercambio",
     "subtitle": "Trueque reinventa el antiguo arte del trueque para el mundo moderno. ¡Tus artículos sin usar encuentran nueva vida y tus habilidades únicas fomentan conexiones duraderas!",
     "ctaDiscover": "Cómo Funciona",
     "ctaExplore": "Explorar Funciones"
-  },
-  "howItWorks": {
-    "title": "Cómo Funciona Trueque",
-    "step1Title": "Regístrate y Brilla",
-    "step1Desc": "Crea tu perfil rápidamente. Añade un toque de personalidad para que la comunidad sepa quién eres.",
-    "step2Title": "Publica y Muestra",
-    "step2Desc": "Publica fácilmente artículos que ya no necesitas o habilidades que te gustaría compartir. ¡Buenas fotos y descripciones ayudan!",
-    "step3Title": "Descubre y Conecta",
-    "step3Desc": "Navega o busca artículos y servicios ofrecidos por otros en tu comunidad local. Envía un mensaje amigable para conectar.",
-    "step4Title": "Acuerda e Intercambia",
-    "step4Desc": "Chatea con miembros para acordar los términos de tu intercambio. ¡Trueca artículos, habilidades o una combinación!",
-    "step5Title": "Valora y Genera Confianza",
-    "step5Desc": "Después del intercambio, comparte tu experiencia. Las valoraciones honestas construyen una comunidad vibrante y confiable."
   },
   "whyTrueque": {
     "title": "¿Por Qué Trueque?",
@@ -125,37 +116,170 @@
     "terms": "Términos de Servicio",
     "contact": "Contáctanos"
   },
-  "howItWorksPage": {
-  "title": "Cómo funciona Trueque",
-  "matchingTitle": "Sistema de Emparejamiento",
-  "matchingText": "Encuentra coincidencias perfectas con nuestra IA:",
-  "matchingFeatures": [
-    "Desliza entre artículos seleccionados",
-    "Notificaciones de coincidencia",
-    "Filtros avanzados",
-    "Recomendaciones por ubicación"
-  ],
-  "negotiationTitle": "Negociación en Tiempo Real",
-  "negotiationText": "Herramientas para crear acuerdos perfectos:",
-  "negotiationFeatures": [
-    "Ofertas combinando múltiples artículos",
-    "Ajustes con dinero en efectivo",
-    "Contraofertas instantáneas",
-    "Calculadora visual de valor"
-  ],
-  "managementTitle": "Gestión Inteligente",
-  "managementText": "Control total de tus intercambios:",
-  "managementFeatures": [
-    "Fotos 360° de tus artículos",
-    "Sistema de clasificación de estado",
-    "Historial completo",
-    "Sugerencias de precios automáticas"
-  ],
-  "chatMessages": [
-    "¡Cambiemos mi mesa por tu sillón!",
-    "¿Qué tal añadir 2 libros para equilibrar?",
-    "¡Trato! Nos vemos mañana 👋"
-  ],
-  "uploadText": "Arrastra para subir artículos"
-}
+  
+
+    "how-it-works": {
+        "pageTitle": "Cómo Funciona Trueque: Tu Viaje Hacia un Intercambio Más Inteligente",
+        "intro": {
+        "title": "Desbloquea un Mundo de Intercambios, Paso a Paso",
+        "subtitle": "Descubre cómo Trueque hace que el trueque sea simple, divertido y efectivo. Desde encontrar tu pareja perfecta hasta cerrar el trato, hemos diseñado una experiencia fluida para nuestra comunidad."
+        },
+        "step1": {
+        "superTitle": "Paso 1: Descubre y Conecta",
+        "title": "Encuentra Tu Compañero de Intercambio Ideal",
+        "description": "Comienza tu aventura en Trueque creando tu perfil y publicando los artículos o habilidades que deseas intercambiar. Nuestro intuitivo sistema de coincidencias, similar a Tinder, te ayuda a descubrir exactamente lo que estás buscando. Desliza a través de las ofertas, y si a otro usuario le gusta algo tuyo en lo que tú también has mostrado interés de él/ella, ¡es una Coincidencia! Esto da inicio al emocionante proceso de trueque.",
+        "feature1_title": "Coincidencias Inteligentes",
+        "feature1_desc": "Nuestro algoritmo sugiere artículos y habilidades relevantes basados en tus preferencias y publicaciones.",
+        "feature2_title": "Búsqueda de Precisión",
+        "feature2_desc": "¿Buscas algo específico? Utiliza filtros avanzados como categoría, color, material, ubicación e incluso peso para acotar tu búsqueda."
+        },
+        "step2": {
+        "superTitle": "Paso 2: Conecta y Comunícate",
+        "title": "Chatea con Tus Coincidencias Inteligentemente",
+        "description": "Una vez que has coincidido, ¡nuestro chat integrado cobra vida! No es un chat cualquiera: muestra inteligentemente los artículos o habilidades que tú y tu coincidencia se han gustado mutuamente. Esta visibilidad en tiempo real facilita ver qué provocó la conexión e iniciar rápidamente tu negociación.",
+        "feature1_title": "Chat Contextual",
+        "feature1_desc": "Ve los artículos que se gustaron directamente en tu ventana de chat para conversaciones enfocadas.",
+        "feature2_title": "Actualizaciones en Tiempo Real",
+        "feature2_desc": "A medida que cambian las preferencias o se gustan nuevos artículos, el contexto del chat se actualiza instantáneamente."
+        },
+        "step3": {
+        "superTitle": "Paso 3: Negocia Como un Profesional",
+        "title": "Elabora la Oferta Perfecta",
+        "description": "Nuestra función de negociación dinámica te da el control. Propón claramente lo que quieres de tu coincidencia y lo que ofreces a cambio de tus artículos o habilidades disponibles. ¿Necesitas equilibrar el trato? Incluso puedes sugerir o solicitar un valor monetario adicional para que el intercambio sea perfectamente justo para ambas partes. ¡Consulta ofertas pasadas para aprender y crear estrategias!",
+        "feature1_title": "Ofertas Flexibles",
+        "feature1_desc": "Combina artículos, habilidades y efectivo opcional para crear propuestas personalizadas.",
+        "feature2_title": "Historial Transparente",
+        "feature2_desc": "Lleva un registro de las iteraciones de la oferta y consulta ofertas pasadas como referencia."
+        },
+        "step4": {
+        "superTitle": "Paso 4: Explora y Genera Confianza",
+        "title": "Conoce a Tu Compañero de Trueque",
+        "description": "La transparencia es clave en Trueque. Antes de comprometerte a un intercambio, explora el perfil de tu coincidencia. Puedes ver una lista detallada de todos los artículos y habilidades que ofrecen, su historial completo de trueques (número de trueques exitosos) y reseñas auténticas de otros usuarios con los que han intercambiado. ¡Después de tu trueque, contribuye a la comunidad dejando tu propia reseña honesta!",
+        "feature1_title": "Perfiles Detallados",
+        "feature1_desc": "Visualiza listados completos de artículos/habilidades para cualquier usuario.",
+        "feature2_title": "Reseñas Verificadas",
+        "feature2_desc": "Lee comentarios de trueques pasados para generar confianza.",
+        "feature3_title": "Contador de Trueques",
+        "feature3_desc": "Observa de un vistazo cuán experimentado es un comerciante."
+        },
+        "step5": {
+        "superTitle": "Paso 5: Gestiona Tu Inventario",
+        "title": "Muestra Tus Artículos y Habilidades",
+        "description": "Sube y gestiona fácilmente tus artículos y habilidades. Proporciona descripciones detalladas, añade fotos claras y categoriza todo para que otros puedan encontrarlo fácilmente. Un inventario bien gestionado es tu clave para atraer excelentes coincidencias e intercambios exitosos.",
+        "feature1_title": "Carga Fácil",
+        "feature1_desc": "Añade rápidamente artículos y habilidades con nuestra interfaz fácil de usar.",
+        "feature2_title": "Inventario Organizado",
+        "feature2_desc": "Mantén tus ofertas actualizadas y bien descritas."
+        },
+        "outro": {
+        "title": "¿Listo para Comenzar Tu Viaje en Trueque?",
+        "subtitle": "Únete a nuestra creciente comunidad y redescubre la alegría del intercambio significativo. Es más que solo trueque; se trata de conexión, sostenibilidad y desbloquear valor oculto.",
+        "ctaButton": "Regístrate y Comienza a Intercambiar"
+        }
+    },
+
+    "Trueque": "Trueque",
+    "Trade what you have, find what you need, connect with your community.": "Intercambia lo que tienes, encuentra lo que necesitas, conéctate con tu comunidad.",
+    "\"Technology should serve people and bring communities together, not divide them.\"": "\"La tecnología debería servir a las personas y unir a las comunidades, no dividirlas.\"",
+    "Founder": "Fundador",
+    "Why Trueque Exists": "Por qué existe Trueque",
+    "We often throw away things we no longer use—or hide our talents in jobs that don't value them. I believe:": "A menudo tiramos cosas que ya no usamos, u ocultamos nuestros talentos en trabajos que no los valoran. Yo creo:",
+    "Our objects, even unused ones, still have value.": "Nuestros objetos, incluso los que no se usan, todavía tienen valor.",
+    "Our skills should help more than just our employers.": "Nuestras habilidades deberían ayudar a más que solo a nuestros empleadores.",
+    "Our communities thrive when we support each other, not compete.": "Nuestras comunidades prosperan cuando nos apoyamos mutuamente, no cuando competimos.",
+    "📚 Books": "📚 Libros",
+    "🎨 Art": "🎨 Arte",
+    "🔧 Skills": "🔧 Habilidades",
+    "👕 Clothes": "👕 Ropa",
+    "\"Value should flow—not sit still\"": "\"El valor debería fluir, no quedarse quieto\"",
+    "What You Can Do With Trueque": "Qué puedes hacer con Trueque",
+    "Forget the store. Skip the expensive company.": "Olvídate de la tienda. Sáltate la compañía costosa.",
+    "is here to help you:": "está aquí para ayudarte a:",
+    "Trade Items": "Intercambiar artículos",
+    "Exchange goods you no longer need for things you want": "Intercambia los bienes que ya no necesitas por cosas que quieres",
+    "Offer Skills": "Ofrecer habilidades",
+    "Share your talents to help others in your community": "Comparte tus talentos para ayudar a otros en tu comunidad",
+    "Find Locally": "Encontrar localmente",
+    "Discover goods and services near you": "Descubre bienes y servicios cerca de ti",
+    "Reduce Waste": "Reducir residuos",
+    "Give items a second life instead of throwing them away": "Dale una segunda vida a los artículos en lugar de tirarlos",
+    "Save Money": "Ahorrar dinero",
+    "Get what you need without spending cash": "Obtén lo que necesitas sin gastar dinero en efectivo",
+    "Connect": "Conectar",
+    "Meet like-minded people in your area": "Conoce gente con intereses similares en tu área",
+    "Our Mission": "Nuestra misión",
+    "In many places around the world, people may lack money—but not generosity, ideas, or heart.": "En muchos lugares del mundo, las personas pueden carecer de dinero, pero no de generosidad, ideas o corazón.",
+    "Someone can start a business without capital": "Alguien puede iniciar un negocio sin capital",
+    "A family can trade a meal for help with repairs": "Una familia puede intercambiar una comida por ayuda con las reparaciones",
+    "A collector finds a missing piece in someone else's garage": "Un coleccionista encuentra una pieza faltante en el garaje de otra persona",
+    "No one is excluded because of money": "Nadie queda excluido por falta de dinero",
+    "Human connection is worth more than price tags": "La conexión humana vale más que las etiquetas de precio",
+    "Trades Made": "Intercambios realizados",
+    "Community Members": "Miembros de la comunidad",
+    "💡 Idea": "💡 Idea",
+    "✏️ Design": "✏️ Diseño",
+    "💻 Code": "💻 Código",
+    "🚀 Launch": "🚀 Lanzamiento",
+    "❤️ Community": "❤️ Comunidad",
+    "Built by One, Made for Many": "Construido por uno, hecho para muchos",
+    "I planned, designed, and built Trueque on my own. It hasn't been easy—but what keeps me going is the vision of a world where people trade, trust, and grow together.": "Planifiqué, diseñé y construí Trueque por mi cuenta. No ha sido fácil, pero lo que me mantiene en marcha es la visión de un mundo donde las personas intercambian, confían y crecen juntas.",
+    "I picture streets, towns, and cities where Trueque helps people reconnect—not just with stuff, but with each other.": "Imagino calles, pueblos y ciudades donde Trueque ayuda a las personas a reconectarse, no solo con cosas, sino entre sí.",
+    "Let's Build the Future Together": "Construyamos el futuro juntos",
+    "If you're already using Trueque—": "Si ya estás usando Trueque—",
+    "thank you": "gracias",
+    "Your feedback means the world to me.": "Tu opinión significa mucho para mí.",
+    "Because this isn't just an app—it's a movement.": "Porque esto no es solo una aplicación, es un movimiento.",
+    "Your thoughts, ideas, feedback...": "Tus pensamientos, ideas, comentarios...",
+    "Send": "Enviar",
+
+
+        "waitlist": {
+          "logoText": "Trueque",
+          "headline": "Intercambia lo que no necesitas por lo que te hace falta – ¡Sin dinero!",
+          "description": "Trueque te ayuda a conseguir esa reparación para la casa, ese juguete especial, ese coche nuevo o ayuda para tu jardín sin gastar dinero. Simplemente ofrece algo de lo que ya no necesitas y empieza a intercambiar. ¡Inscríbete ahora en la lista de espera para ser de los primeros en probarlo!",
+          "appPreview": {
+            "screenshotAlt": "Vista previa de la interfaz de la aplicación Trueque"
+         },
+          "countdownTitle": "¡La espera casi ha terminado! Nuestra aplicación se lanzará en:",
+          "days": "Días",
+          "hours": "Horas",
+          "minutes": "Minutos",
+          "seconds": "Segundos",
+          "launched": "¡Trueque ESTÁ EN LÍNEA! ¡Descúbrelo!",
+          "socialProof": "Únete a más de {count} personas ya en la lista de espera – ¡No te pierdas el acceso anticipado!",
+          "testimonial": "¡Trueque cambia las reglas del juego! Intercambié una bicicleta vieja por una nueva cafetera – ¡es como un mercado pero sin dinero en efectivo!",
+          "userName": "Alex P.",
+          "formTitle": "Ingresa tu correo electrónico para unirte a la lista de espera:",
+          "emailPlaceholder": "Tu dirección de correo electrónico",
+          "submit": "Enviar",
+          "submitting": "Enviando...",
+          "submitSuccess": "¡Gracias por registrarte! Te mantendremos informado.",
+          "submitError": "Por favor, ingresa una dirección de correo electrónico válida.",
+          "privacy": "Respetamos tu privacidad. Tu correo electrónico solo será utilizado para informarte sobre el lanzamiento y las actualizaciones de Trueque.",
+          "incentivesTitle": "¡Regístrate ahora para obtener:",
+          "incentive1": "Funciones exclusivas en acceso anticipado",
+          "incentive2": "Actualizaciones especiales para los miembros de la lista de espera",
+          "incentive3": "Colocación prioritaria para tus artículos",
+          "faqTitle": "Preguntas Frecuentes",
+          "faqs": [
+            {
+              "question": "¿Qué es Trueque?",
+              "answer": "Trueque es una aplicación revolucionaria que te permite intercambiar lo que no necesitas por lo que te hace falta, sin usar dinero. Ofreces un artículo y otra persona ofrece algo a cambio. Así de simple."
+            },
+            {
+              "question": "¿Cómo funciona el proceso de intercambio?",
+              "answer": "Simplemente ofrece un artículo que ya no necesites y explora los intercambios disponibles. Recibirás notificaciones cuando alguien esté interesado en tu oferta. ¡Una vez que encuentres una coincidencia, intercambias directamente a través de la aplicación!"
+            },
+            {
+              "question": "¿Cuándo estará disponible la aplicación?",
+              "answer": "¡Lanzamos el 12 de junio! Sé el primero en probarla registrándote ahora en la lista de espera."
+            }
+          ],
+          "finalCta": "Obtén Acceso Anticipado – ¡Únete a la Lista de Espera Hoy!",
+          "benefitReminder": "Sin pagos, solo intercambios. ¡Comienza a intercambiar hoy mismo!",
+          "joinButton": "Unirse a la Lista de Espera"
+        }
+
+
+ 
 }
